@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-
 int isKeyword(char buffer[]) {
     char keywords[32][10] = 
     {"main", "auto", "break", "case", "char", "const", "continue", "default",
